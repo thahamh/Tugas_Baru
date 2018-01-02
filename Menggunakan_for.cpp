@@ -45,5 +45,16 @@ int main(){
 		cout <<RWac[i][j]<<" | ";
 		}cout <<endl;
 	}
+	
+	cout <<endl<< "HASIL AKHIR : "<<endl;
+	double ha[3];	   
+	for(int i=0;i<3;i++){
+	for(int j=0;j<5;j++){
+	ha[i]+=RWac[i][j];
+		}
+	}
+	cout << "Nilai A1 : "<<ha[0]<<endl 
+	     << "Nilai A2 : "<<ha[1]<<endl
+		 << "Nilai A3 : "<<ha[2]<<endl;
 
 }
